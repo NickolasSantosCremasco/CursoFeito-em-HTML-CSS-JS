@@ -1,0 +1,292 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Roboto:ital,wght@1,300;1,400&family=Titillium+Web&display=swap');
+@font-face {
+    font-family: "fonte-logo";
+    src: url(../pacote-1/projeto-glass-html5/_fonts/bubblegum-sans-regular.otf);
+}
+body {
+    font-family: 'ROBOTO', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: #bdbdbd;
+   color:rgba(0,0,0,1);
+}
+
+p {
+
+    text-align: justify;
+
+}
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+.alink {
+    color: #606060;
+    text-decoration: none;
+}
+
+.alink:hover{
+    text-decoration: underline;
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 7px;
+    transition: background-color 0.3s;
+} 
+
+.icone{
+    position: absolute;
+    left: 910px;
+    top: 60px;
+}
+
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background:url(../imagens/glass-logo-peq.jpg)no-repeat 0px 90px;
+    
+}
+header#cabecalho h1{
+    font-family: "fonte-logo", sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    padding: 0px;
+    margin-bottom:0px ;
+}
+
+header#cabecalho h2{
+    font-family: 'Titillium Web', sans-serif;    
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+    
+}
+
+figure.foto-legenda {
+    border: 8px solid white;
+    width: 450px;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+    
+}
+figure.foto-legenda img {
+    height:100%;
+    width: 100%;
+    
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color:rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+     }
+
+     figure.foto-legenda:hover figcaption{
+        opacity: 1;
+        transition: opacity 1s
+     }
+
+     /* Formatação do Menu*/
+
+     nav#menu {
+        display: block;
+     }
+
+    nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 520px;
+
+    }
+    nav#menu li {
+        display: inline-block;
+        background-color: #dddddd;
+        padding: 10px;
+        margin: 2px;
+        transition: background-color  0.5s;
+        border-radius: 6px;
+       
+    }
+
+    nav#menu li:hover{
+        background-color:#606060;
+
+            
+    }
+
+    nav#menu h1 {
+        display: none;
+    }
+
+    nav#menu a{
+        color: #000000;
+    }
+
+    nav#menu a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    section#corpo {
+        display: block;
+        width: 500px;
+        float: left;
+        border-right:1px solid #606060;
+        padding-right:20px ;
+    }
+
+    table#tabelaspec {
+
+        border: 1px solid black;
+        border-spacing: 0px ;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    table#tabelaspec td {
+        border: 1px solid #606060;
+        padding: 10px ;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .coluna-direita{
+
+        background-color: 
+        #cecece;
+
+
+    }
+
+    .coluna-esquerda{
+        color: #ffffff;
+        background-color: #606060;
+        vertical-align: top;
+        font-weight: bold
+
+    }
+
+    table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+    }
+
+    aside#lateral {
+        display: block;
+        width: 340px;
+        float: right;
+        background-color:#d2cfcf;
+        padding: 15px;
+        margin-top: 10px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, .5 );
+        border-radius: 7px;
+    }
+
+    aside#lateral h1{
+
+        font-family:"fonte-logo";
+        font-size: 20pt;
+        color: #606060;
+        margin-top: 0px;
+        
+
+
+    }
+
+    aside#lateral h2{
+
+        background-color: #606060;
+        font-size: 13pt;
+        color: #ffffff;
+        border-radius: 3px;
+        padding: 8px;
+
+
+    }
+
+    footer#rodape {
+        clear: both;
+        border-top: 1px solid #606060;
+    }
+
+    footer#rodape p {
+        text-align: center;
+    }
+
+    table#tabelaspec caption {
+        color:#606060;
+        font-size: 13pt;
+        font-weight: bolder;
+    }
+
+    article#noticia-principal h2 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 20px;
+    margin: 10px 0px 10px 0px;
+
+    }
+
+        header#cabecalho-de-artigo h1{
+
+            font-family: "fonte-logo", sans-serif;
+            font-size: 20pt;
+            color: #606060;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            
+        }
+
+        .direita {
+
+            text-align: right;
+        }
+
+        header#cabecalho-de-artigo h2 {
+
+            font-size: 13pt;
+            color: rgba(0, 0, 0, 0.4);
+            background-color: #ffffff;
+            margin: 0px;
+           
+
+        }
+
+        header#cabecalho-de-artigo h3 {
+
+           font-size: 12px;
+           margin-top: 10;
+         
+        }
+
+        
+
+
+
+
+     
+                                                 
+
+
